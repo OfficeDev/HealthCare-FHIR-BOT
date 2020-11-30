@@ -12,7 +12,7 @@ This sample exercise following scenarios:
 
 * Clone this repo:<br>
     ```bash
-    git clone https://github.com/OfficeDev/HealthCare-FHIR-Bot.git
+    git clone https://github.com/OfficeDev/HealthCare-FHIR-BOT.git
     ```
 
 * Install Visual Studio and launch it as an administrator
