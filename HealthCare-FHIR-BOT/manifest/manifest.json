@@ -1,0 +1,64 @@
+{
+    "$schema": "https://github.com/OfficeDev/microsoft-teams-app-schema/blob/preview/DevPreview/MicrosoftTeams.schema.json",
+    "manifestVersion": "devPreview",
+    "version": "1.0",
+    "id": "e3fb4e42-f767-44d7-a529-1ad199d3925d",
+    "packageName": "com.microsoft.HealthCareBot",
+    "developer": {
+        "name": "Microsoft",
+        "websiteUrl": "http://www.microsoft.com",
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+    },
+    "icons": {
+        "color": "HealthCare.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "HealthCareFHIRBot",
+        "full": "HealthCareFHIRBot"
+    },
+    "description": {
+      "short": "Interacts with FHIR Server",
+      "full": "Interacts with FHIR Server"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "e3fb4e42-f767-44d7-a529-1ad199d3925d",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "commandLists": [
+              {
+                "scopes": [
+                  "personal",
+                  "team",
+                  "groupchat"
+                ],
+                "commands": [
+                  {
+                    "title": "Patient details",
+                    "description": "Get Patient details."
+                  },
+                  {
+                    "title": "Patient details by id 1474470",
+                    "description": "Get Patient details by specific id"
+                  }
+                ]
+              }           
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "supportsCalling": true,
+            "supportsVideo": true
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
